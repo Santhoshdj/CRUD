@@ -1,0 +1,21 @@
+<div class="container">
+            <% editDetails.forEach(function(_data){%>
+	<div class="row">
+		<div class="col-sm-6"><input type="text" value="<%=_data.firstName%>" id="firstName" placeholder="First Name"/></div>
+		<div class="col-sm-6"><input type="text" value="<%=_data.lastName%>" id="lastName" placeholder="Last Name"/></div><br><br>
+		<div class="col-sm-6"><input type="text" value="<%=_data.email%>" id="email" placeholder="Email"/></div>
+		<div class="col-sm-6"><input type="text" value="<%=_data.mobileNumber%>" id="mobileNumber" placeholder="Mobile Number"/></div>
+    	<div class="col-sm-6"><input type="text"  value="<%=_data.city%>" id="city" placeholder="City"/></div>
+   	    <div class="col-sm-6"><input type="text" value="<%=_data.pinCode%>" id="pinCode" placeholder="Pin Code"/></div>
+   	                <input type ="hidden"  value="<%=_data.id%>" id="id">
+
+	</div>
+  <div class="save-detail-but">
+		<button type="button" class="btn btn-primary" onclick="editDetails()" >Update Details</button>
+  </div>
+            <%})%>
+
+</div>
+
+
+

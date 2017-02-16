@@ -1,0 +1,28 @@
+
+
+
+<div class="container">
+<!-- <div class="row1"> -->
+<h1>View</h1>
+<div class="admin-finalbr">
+<h6></h6>
+</div>
+
+<% viewDetails.forEach(function(_data){ %>
+<%= _data.firstName %> <%= _data.lastName %><br>
+<%= _data.email %>,<%= _data.mobileNumber %><br>
+<%= _data.city %>-<%= _data.pinCode %>
+<div class="butt">
+<a href="/editDetails/<%=_data.id%>">
+<button type="button" class="btn btn-primary">Edit Details</button></a>
+<button  type="button" class="btn btn-primary" onclick="deleteDetails(id)" id= "<%=_data.id%>">Delete Details</button>
+</div>
+<div class="admin-finalbr">
+
+<h6></h6>
+</div>
+<%})%>
+
+<!-- </div> -->
+
+</div>

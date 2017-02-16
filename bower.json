@@ -1,0 +1,29 @@
+{
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "requirejs": "^2.3.2",
+    "angular": "^1.5.9"
+  },
+  "name": "Santhosh",
+  "version": "0.0.0",
+  "author": "sanju",
+  "private": true,
+  "authors": [
+    "r"
+  ],
+  "description": "DJ",
+  "main": "Shamanth",
+  "keywords": [
+    "p"
+  ],
+  "license": "adg",
+  "homepage": "hfhj"
+}
